@@ -1,0 +1,21 @@
+### Get
+GET http://localhost:3000/cheaction?key=R337
+
+### Post
+POST http://localhost:3000/cheaction
+Content-Type: application/json
+
+{
+  "key": "R337",
+  "redirect": "/joblist"
+}
+
+
+### Rest
+POST http://localhost:3000/resetCheAction
+Content-Type: application/json
+
+{
+  "key": "R337"
+}
+
